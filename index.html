@@ -3,25 +3,76 @@
     <head>
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width,initial-scale=1">
-        <link rel="stylesheet" href="./css/style.css" type="text/css"/>
+        <link rel="stylesheet" href="./css/styles.css" type="text/css"/>
         <!-- Font Awesome -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-        <!-- Police Raleway -->
+        <!-- Google Fonts -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&display=swap" rel="stylesheet">
         <title>Ohmyfood!</title>
     </head>
-    
     <body>
-            <header>
-            </header>
-            
+        <header class="header">
+            <nav>
+                <div class="header__logo">
+                    <img src="./img/logo/ohmyfood@2x.svg" alt="Logo de Ohmyfood" class="header__img"/>
+                </div>
+            </nav>
+         </header>
             <main>
+            <section class="localisation">
+                <p class="localisation__content"><i class="fa-map-marker-alt fas localisation__icon" aria-hidden="true"></i> Paris, Belleville</p>
+            </section>
+            <section class="intro">
+                <h1 class="intro__title">Réservez le menu qui<br>vous convient</h1>
+                <p>Découvrez des restaurants d'exception,<br>séléctionnés par nos soins.</p>
+                <div class="intro__button">
+                    <button>Explorer nos restaurants</button>
+                </div>
+            </section>
             <section>
+                <h2>Fonctionnement</h2>
+                <ol>
+                    <li><i class="fa-mobile-alt fas" aria-hidden="true"></i>Choisissez un restaurant</li>
+                    <li><i class="fa-list-ul fas" aria-hidden="true"></i>Composez votre menu</li>
+                    <li><i class="fa-store fas" aria-hidden="true"></i>Dégustez au restaurant</li>
+                </ol>
+            </section>
+            <section>
+                <h2>Restaurants</h2>
+                <div>
+                    <a href="la-palette-du-gout.html">
+                        <h3>La palette du goût</h3>
+                        <p>Ménilmontant</p>
+                        <i class="fa-2x fa-heart fas" aria-hidden="true"></i>
+                    </a>
+                    <a href="la-note-enchantee.html">
+                        <h3>La note enchantée</h3>
+                        <p>Charonne</p>
+                        <i class="fa-2x fa-heart fas" aria-hidden="true"></i>
+                    </a>
+                    <a href="a-la-francaise.html">
+                        <h3>À la française</h3>
+                        <p>Cité Rouge</p>
+                        <i class="fa-2x fa-heart fas" aria-hidden="true"></i>
+                    </a>
+                    <a href="le-delice-des-sens.html">
+                        <h3>Le délice des sens</h3>
+                        <p>Folie-Méricourt</p>
+                        <i class="fa-2x fa-heart fas" aria-hidden="true"></i>
+                    </a>
+                </div>
             </section>
             </main>   
-
             <footer>
+                <img src="./img/logo/ohmyfood@2x.svg" alt="Logo de Ohmyfood"/>
+                <nav>
+                    <a><i class="fa-utensils fas" aria-hidden="true"></i> Proposer un restaurant</a>
+                    <a><i class="fa-hands-helping fas" aria-hidden="true"></i> Devenir partenaire</a>
+                    <a>Mentions légales</a>
+                    <a>Contact</a>
+                </nav>
             </footer>
     </body>
 </html>
