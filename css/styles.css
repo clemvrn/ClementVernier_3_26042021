@@ -18,10 +18,6 @@ a:visited, a:link, a:active {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -711,12 +707,6 @@ a:visited, a:link, a:active {
 .menu .menu__details .details__carte .carte__choix .choix:hover .choix__check .check__icon {
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
-}
-
-.menu .menu__details .details__carte .carte__choix .choix:hover .choix__description {
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
 }
 
 .menu .menu__details .details__carte .carte__choix .choix:hover .choix__prix {
